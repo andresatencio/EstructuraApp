@@ -1,4 +1,5 @@
-<h1>Estructura basica JqueryMobile + Phonegap</h1>
+<h1>Estructura basica</h1>
+<h3>JqueryMobile + Phonegap + Fastclick</h3>
 <p>JQM v.1.4.0</p>
 <p>Phonegap v.XXX</p>
 <hr>

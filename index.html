@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.0.min.css"/>
 		<link rel="stylesheet" href="css/jquery.mobile.theme-1.4.0.min.css"/>
 		<!-- tema flat experimental -->
-		<!-- <link rel="stylesheet" href="css/flat.min.css"/> -->
+		<link rel="stylesheet" href="css/app.css"/>
 		<script src="js/lib/phonegap-xxx.js"></script>
 		<script src="js/lib/fastclick.js"></script>	
 		<script src="js/lib/jquery-1.10.2.min.js"></script>
@@ -21,15 +21,15 @@
 	<body>
 		<!-- Pagina -->
 		<div data-role='page'>
-			<div data-role='header' data-position="fixed">
-				<h1>Titulo header</h1>
+			<div data-role='header' class="cabeza" data-position="fixed" data-tap-toggle="false">
+				<h1 style="text-align:left; margin-left:10px;">Titulo header</h1>
 			</div>
 			<div data-role='content'>
 				<h1>Contenido</h1>
 				<button id='botonaso'>Boton con Fastclick</button>
 				<button id='botoncito' class="needsclick">Boton sin Fastclick</button>
 			</div>
-			<div data-role='footer' data-position="fixed">
+			<div data-role='footer' class="cabeza" data-position="fixed" data-tap-toggle="false">
 				<h1>Titulo footer</h1>
 			</div>
 		</div>

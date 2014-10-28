@@ -65,3 +65,11 @@ body,
 	background-color: #c0392b !important;
 	color: #ffffff !important;
 }
+.center{
+	text-align: center;
+}
+.ui-focus {
+ -moz-box-shadow: none !important;
+ -webkit-box-shadow: none !important;
+ box-shadow: none !important;
+}
